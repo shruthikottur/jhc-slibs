@@ -1,4 +1,4 @@
-def call ()
+def call (x,y)
 script{
   init x = params.x as integer
   init y = params.y as integer
