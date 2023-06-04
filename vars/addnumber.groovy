@@ -1,7 +1,8 @@
 def call( x, y)
 {
-  
- var z= +x + +y
+  var i=x
+  var j=y
+  var z= Number(i) + Number(j) 
 
-  print  "sum  is: ${var z}"
+  print  "sum  is: ${ z}"
 }
