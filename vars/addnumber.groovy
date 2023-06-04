@@ -1,8 +1,7 @@
 def call( x, y)
 {
-  var i=x
-  var j=y
-  var z= Number(i) + Number(j) 
+  
+  var z =parseInt(x) + parseInt(y) 
 
   print  "sum  is: ${ z}"
 }
